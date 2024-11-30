@@ -1,0 +1,23 @@
+[
+  {
+    "_id": "5454c7dc-eef0-4eb1-a99a-83a883b63775",
+    "nome": "Ponto B",
+    "bairro": "Liechstein",
+    "rua": "Shwafinteinsschneiden",
+    "observacao": ""
+  },
+  {
+    "_id": "1fdc22d3-cdd4-4655-a274-aa235ab0b99f",
+    "nome": "Ponto E",
+    "bairro": "Finlandia",
+    "rua": "Hkkttonfillsston",
+    "observacao": "É real"
+  },
+  {
+    "_id": "260927bb-e43f-4852-b70e-e6ed3c1ad297",
+    "nome": "Ponto E",
+    "bairro": "Hogwarts",
+    "rua": "Voldemort",
+    "observacao": ""
+  }
+]
