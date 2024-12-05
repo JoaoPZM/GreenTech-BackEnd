@@ -7,11 +7,11 @@ const { v4: uuidv4 } = require('uuid');  // Importar o método v4 do uuid para g
 
 // Iniciar o app
 const app = express();
-
-
 // Middleware
 app.use(bodyParser.json());
 app.use(cors());
+
+const port = process.env.PORT || 3000;
 
 // Caminho do arquivo onde as sugestões serão armazenadas
 const sugestoesFilePath = path.join(__dirname, 'sugestoes.json');
