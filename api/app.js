@@ -156,11 +156,12 @@ app.post("/api/login", (req, res) => {
     res.status(401).send({ message: "Credenciais inválidas" });
 });
 
+// Iniciar o servidor na porta 3000
+app.listen(3000, () => {
+    console.log('Servidor rodando na porta 3000');
+    
 // Exportando para o Vercel
 const serverless = require('serverless-http');
 module.exports.handler = serverless(app);  // Exporta a função handler para o Vercel
 
-// Iniciar o servidor na porta 3000
-app.listen(3000, () => {
-    console.log('Servidor rodando na porta 3000');
 });
