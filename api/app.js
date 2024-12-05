@@ -82,9 +82,6 @@ app.get('/api/sugestoes', (req, res) => {
     }
 });
 
-const handler = require('serverless-http')(app);
-module.exports = handler;
-
 // Rota para adicionar a observação
 app.post('/api/sugestoes/observacao', (req, res) => {
     const { id, observacao } = req.body;
@@ -158,6 +155,10 @@ app.post("/api/login", (req, res) => {
     }
     res.status(401).send({ message: "Credenciais inválidas" });
 });
+
+// Exportando para o Vercel
+const serverless = require('serverless-http');
+module.exports.handler = serverless(app);  // Exporta a função handler para o Vercel
 
 // Iniciar o servidor na porta 3000
 app.listen(3000, () => {
