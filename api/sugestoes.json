@@ -1,0 +1,26 @@
+[
+  {
+    "_id": "83f8f093-8149-48c4-8e40-af9d4241bc10",
+    "nome": "Ponto A",
+    "bairro": "Medianeira",
+    "rua": "Dom Feliciano",
+    "residuo": "Pilha",
+    "observacao": ""
+  },
+  {
+    "_id": "94a47f97-c3b7-4eda-92e4-3bd7953bbb87",
+    "nome": "Ponto B",
+    "bairro": "Liechstein",
+    "rua": "Shwafinteinsschneiden",
+    "residuo": "Gelo",
+    "observacao": "Na geladeira"
+  },
+  {
+    "_id": "3f05ee7a-ff61-47ef-bea6-b7a498345896",
+    "nome": "asda",
+    "bairro": "dddd",
+    "rua": "asd",
+    "residuo": "dsss",
+    "observacao": ""
+  }
+]
