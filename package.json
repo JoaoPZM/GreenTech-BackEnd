@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node api/app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "vercel-build": "npx migrate deploy"
+    "vercel-build": "npx api deploy"
   },
   "keywords": [],
   "author": "",
